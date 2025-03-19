@@ -13,16 +13,16 @@ do = input()
 if do == "+":
     result = value1 + value2
     print(result)
-if do == "/":
+elif do == "/":
     result = value1 / value2
     print(result)
-if do == "*":
+elif do == "*":
     result = value1 * value2
     print(result)
-if do == "-":
+elif do == "-":
     result = value1 - value2
     print(result)
-if do == "**":
+elif do == "**":
     result = value1 ** value2
     print(result)
 else:
